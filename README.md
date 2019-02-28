@@ -105,3 +105,4 @@ To use the Auth Namespace you need to import it at the top.
 You need to pass the value to the Model at the time of creating new record. Or you need to make the field nullable in migration ->nullable and run 
 `php artisan migrate:fresh`
 
+---
