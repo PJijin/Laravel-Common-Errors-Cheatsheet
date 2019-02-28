@@ -1,4 +1,4 @@
-# Laravel-Common-Errors-Cheatsheet
+# Laravel Common Errors Cheatsheet
 
 ⚡ Laravel Common Error Cheatsheet for beginners. 
 
