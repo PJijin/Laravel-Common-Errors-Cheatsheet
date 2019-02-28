@@ -89,5 +89,19 @@ The template blade file is not present on the specified directory. Make sure you
 
 `Class 'App\Http\Controllers\admin\Auth' not found `
 
+**Solution**
+
 To use the Auth Namespace you need to import it at the top. 
 `Use Auth;`
+
+---
+
+**Error 9** 
+
+`SQLSTATE[HY000] General error: 1364 Field 'email' doesn't have a default value`
+
+**Solution**
+
+You need to pass the value to the Model at the time of creating new record. Or you need to make the field nullable in migration ->nullable and run 
+`php artisan migrate:fresh`
+
