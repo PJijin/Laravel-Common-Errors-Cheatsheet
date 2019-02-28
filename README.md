@@ -27,6 +27,10 @@ DB_PASSWORD=your_database_password
 
 `419 sorry your session has expired. please refresh and try again`
 
+or
+
+`TokenMismatchException`
+
 **Solution**
 
 The error basically occurs when there is no csrf token field on the form post. Make sure you have  {{ csrf_filed() }} on the blade form.
@@ -38,6 +42,10 @@ The error basically occurs when there is no csrf token field on the form post. M
 `404
 Sorry, the page you are looking for could not be found.`
 
+or
+
+`NotFoundHttpException`
+
 **Solution**
 
 You have not added the Route. Go to routes/web.php and specify the route.
@@ -47,6 +55,11 @@ You have not added the Route. Go to routes/web.php and specify the route.
 **Error 4**
  
 `405 Method not allowed`
+
+or 
+
+`MethodNotAllowedHttpException`
+
 
 **Solution**
 
@@ -106,3 +119,12 @@ You need to pass the value to the Model at the time of creating new record. Or y
 `php artisan migrate:fresh`
 
 ---
+
+**Error 10** 
+
+`ModelNotFoundException`
+
+**Solution**
+
+This exception is thrown if you try to access the data that does not exist. Generally thrown by findOrFail() or firstOrFail()
+
