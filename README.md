@@ -4,6 +4,8 @@
 
 🔍 Use Ctrl + F to search for error 
 
+---
+
  **Error 1**
 
     `SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) (SQL: select count(*) as aggregate from` users`where`email `= xxx@xx.com)`
@@ -51,24 +53,33 @@ You have not added the Route. Go to routes/web.php and specify the route.
 You have not added the Route or it is not in Route::post method . Go to routes/web.php and specify the route or modify the route to post method.
 
 ---
+
 **Error 5**
 
 `Class App\Http\Controllers\HomeController does not exist`
+
+**Solution**
 
 You have not created the HomeController file. Go to your terminal and run
  `php artisan make:controller HomeController`
  
  ---
+ 
  **Error 6** 
 
 `Method App\Http\Controllers\HomeController::test does not exist.`
 
+**Solution**
+
 You have not created the specified method on HomeController. Here the test method is not added in HomeController. 
 
 ---
+
 **Error 7** 
 
 `View [sample] not found.`
+
+**Solution**
 
 The template blade file is not present on the specified directory. Make sure you have created the sample.blade.php file on resources/views folder.
 
