@@ -1,6 +1,8 @@
 # Laravel-Common-Errors-Cheatsheet
 
-Laravel Common Error Cheatsheet for beginners 
+⚡ Laravel Common Error Cheatsheet for beginners. 
+
+🔍 Use Ctrl + F to search for error 
 
  **Error 1**
 
@@ -71,3 +73,10 @@ You have not created the specified method on HomeController. Here the test metho
 The template blade file is not present on the specified directory. Make sure you have created the sample.blade.php file on resources/views folder.
 
 ---
+
+**Error 8** 
+
+`Class 'App\Http\Controllers\admin\Auth' not found `
+
+To use the Auth Namespace you need to import it at the top. 
+`Use Auth;`
