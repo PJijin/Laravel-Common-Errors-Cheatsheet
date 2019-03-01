@@ -1,8 +1,10 @@
 # Laravel Common Errors Cheatsheet
 
-⚡ Laravel Common Error Cheatsheet for beginners. 
+⚡  Laravel Common Error Cheatsheet for beginners. 
 
 🔍 Use Ctrl + F to search for error 
+
+🥳 Feel free to contribute
 
 ---
 
