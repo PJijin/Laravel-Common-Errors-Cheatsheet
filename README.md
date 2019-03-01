@@ -128,3 +128,12 @@ You need to pass the value to the Model at the time of creating new record. Or y
 
 This exception is thrown if you try to access the data that does not exist. Generally thrown by findOrFail() or firstOrFail()
 
+---
+
+**Error 11**
+
+`Cannot end a section without first starting one`
+
+This error will be at the blade file. Check that you have a starting of section Eg: `@section('content')`
+
+----
